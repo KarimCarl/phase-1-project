@@ -1,10 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
 body { 
+    
     height:1000px; 
     width: 100px;
     background: linear-gradient(rgb(0, 3, 41), rgba(0, 26, 158, 0.808));
  }
 
  
-h1 {
+label {
     color: rgb(255, 200, 0);
 }
