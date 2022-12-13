@@ -10,6 +10,12 @@ body {
     font-family: montserrat;
  }
 
+.logo {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
  .nav {
     background: rgb(0, 195, 179);
     height: 80px;
@@ -36,3 +42,14 @@ nav.logo {
     margin: 0 5px;
 }
 
+.nav ul li a {
+    color: white;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active, a:hover {
+    background: rgb(0, 35, 175);
+    transition: .5s;
+}
