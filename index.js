@@ -4,21 +4,21 @@ let ozRef = document.getElementById("oz");
 
 let convertFromKg = () => {
   let kg = kgRef.value;
-  //toFixed(2) limits the decimals to 2 digits.
-  lbRef.value = (kg * 2.205).toFixed(2);
-  ozRef.value = (kg * 35.274).toFixed(2);
+  //toFixed(4) limits the decimals to four digits.
+  lbRef.value = (kg * 2.205).toFixed(4);
+  ozRef.value = (kg * 35.274).toFixed(4);
 };
 
 let convertFromLb = () => {
   let lb = lbRef.value;
-  kgRef.value = (lb / 2.205).toFixed(2);
-  ozRef.value = (lb * 16).toFixed(2);
+  kgRef.value = (lb / 2.205).toFixed(4);
+  ozRef.value = (lb * 16).toFixed(4);
 };
 
 let convertFromOz = () => {
   let oz = ozRef.value;
-  kgRef.value = (oz / 35.274).toFixed(2);
-  lbRef.value = (oz / 16).toFixed(2);
+  kgRef.value = (oz / 35.274).toFixed(4);
+  lbRef.value = (oz / 16).toFixed(4);
 };
 
 kgRef.addEventListener("input", convertFromKg);
