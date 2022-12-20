@@ -7,7 +7,7 @@ Welcome to my Country Information repository! This repository is for Moringa Sch
 This Country Information App displays information about a country that the user chooses to input in the search bar.
 The app uses a free API.
 To run this app, you need to open index.html file.Once the browser is open, you can search any country you'd like. 
-Once you have input the country of your choice, brief details of the country like the flag, currency and population pops up.
+Once you have input the country of your choice, brief details of the country like the flag, the capital city, continent, currency, population and common languages spoken pops up.
 
 
 ## Conclusion
