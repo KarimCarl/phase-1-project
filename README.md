@@ -1,9 +1,10 @@
 # Phase-1-Project
 
 
-## Challenge
+## Country Lister
 
-We will be working on Flataculties, an app where you can vote for the cutest animal! You will use a local API and build out the frontend for our app, Flatacuties.
+This country lister app displays information about a country that the user chooses to input in the search bar.
+The app uses a free API.
 For this app to run, you first have to run your json database by running json-server --watch db.json.
 Once the server is launched, you can run open the index.html file. 
 You can then proceed to click any animal from the characters outlined, for example, Zebra or Lion.
@@ -17,8 +18,7 @@ You can then reset the votes for an animal back to zero by clicking 'Reset Votes
 
 
 ## Conclusion
-This app takes in votes from the users and adds them to the animal you've selected. Clicking the reset button will reset the selected animal's vote back to zero. Implementing this using DOM was hard since it was a new concept that we had almost zero knowledge of how to tackle it. 
-
+This ask the user to input a country of theirchoice. The app then retrieves information from a remoted db and displays it to the user. Not all information is new and up-to-date but it gives a failry latest update. This was a very challenging project as I'm still learning Js but I will try to practise more and hopefully make more complicated projects.
 
 
 ## REQUIREMENTS
