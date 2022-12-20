@@ -2,38 +2,28 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weight Converter</title>
-    <!-- Google Fonts -->
+    <title>Country Guide App</title>
+    <!--Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <div class="container">
-
-      <h2>Convert Weight</h2>
-
-      <div class="input-wrapper">
-        <label for="kg">Kilograms, kg:</label>
-        <input type="number" id="kg" value="10" />
+      <div class="search-wrapper">
+        <input
+          type="text"
+          id="country-inp"
+          placeholder="Enter a country name here"
+        />
+        <button id="search-btn">Search</button>
       </div>
-      
-      <div class="input-wrapper">
-        <label for="lb">Pounds, lb:</label>
-        <input type="number" id="lb" />
-      </div>
-
-      <div class="input-wrapper">
-        <label for="oz">Ounces, oz:</label>
-        <input type="number" id="oz" />
-      </div>
-
+      <div id="result"></div>
     </div>
     <!-- Script -->
-    <script src="script.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
