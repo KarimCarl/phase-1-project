@@ -1,5 +1,6 @@
 # Phase-1-Project
 
+Welcome to the Country Lister repository! This repository is for Moringa School's Phase 1 project. This is a simple single-page application that allows you to search and view different countries using free available data online.
 
 ## Country Lister
 
@@ -19,6 +20,9 @@ You can then reset the votes for an animal back to zero by clicking 'Reset Votes
 
 ## Conclusion
 This ask the user to input a country of theirchoice. The app then retrieves information from a remoted db and displays it to the user. Not all information is new and up-to-date but it gives a failry latest update. This was a very challenging project as I'm still learning Js but I will try to practise more and hopefully make more complicated projects.
+
+## Contributions
+If you would like to contribute to this project, please feel free to open a pull request or issue on the GitHub repository. Any contributions, big or small, are greatly appreciated.
 
 
 ## REQUIREMENTS
