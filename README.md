@@ -1,10 +1,10 @@
 # Phase-1-Project
 
-Welcome to the Country Lister repository! This repository is for Moringa School's Phase 1 project. This is a simple single-page application that allows you to search and view different countries using free available data online.
+Welcome to my Country Information repository! This repository is for Moringa School's Phase 1 project. This is a simple single-page application that allows you to search and view different countries using free available data online.
 
-## Country Lister
+## Country Information App
 
-This country lister app displays information about a country that the user chooses to input in the search bar.
+This Country Information App displays information about a country that the user chooses to input in the search bar.
 The app uses a free API.
 To run this app, you need to open index.html file.Once the browser is open, you can search any country you'd like. 
 Once you have input the country of your choice, brief details of the country like the flag, currency and population pops up.
