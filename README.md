@@ -6,16 +6,8 @@ Welcome to the Country Lister repository! This repository is for Moringa School'
 
 This country lister app displays information about a country that the user chooses to input in the search bar.
 The app uses a free API.
-For this app to run, you first have to run your json database by running json-server --watch db.json.
-Once the server is launched, you can run open the index.html file. 
-You can then proceed to click any animal from the characters outlined, for example, Zebra or Lion.
-Once selected, a GIF of the selected animal will play at the image section.
-You can then add the number of votes to the animal you have selected. To save the votes, you have to click'Add Votes.'
-After inputing your votes, you can then add some more votes which will be cumulatively added to the previous number of votes.
-Do this repetitively until you have enough votes for your selected animals.
-You can then reset the votes for an animal back to zero by clicking 'Reset Votes.'
-
-
+To run this app, you need to open index.html file.Once the browser is open, you can search any country you'd like. 
+Once you have input the country of your choice, brief details of the country like the flag, currency and population pops up.
 
 
 ## Conclusion
@@ -32,7 +24,6 @@ If you would like to contribute to this project, please feel free to open a pull
 * Vue 2.6.11
 * Then install the various packages from package.json `npm install`
 * Create environment variables
-* db.json 
 
 ## Author: 
 * **Charles Ndung'u** - *Initial work*-[KarimCarl] (https://github.com/KarimCarl)
