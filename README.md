@@ -1,6 +1,7 @@
 # Phase-1-Project
 
 Welcome to my Country Information repository! This repository is for Moringa School's Phase 1 project. This is a simple single-page application that allows you to search and view different countries using free available data online.
+The app can be accessed using the following link https://karimcarl.github.io/phase-1-project/ 
 
 ## Country Information App
 
